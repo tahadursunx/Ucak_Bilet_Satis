@@ -2,7 +2,7 @@
 
 
 
-Tabii, işte tüm varlık kümeleri ve ilişkileri, bagajlar da dahil edilmiş şekilde:
+tüm varlık kümeleri ve ilişkileri, bagajlar da dahil edilmiş şekilde:
 
 1. **Müşteriler (Customers):**
    - Müşteri ID (PK)
