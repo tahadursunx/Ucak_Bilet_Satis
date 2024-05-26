@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="OTDataSet3" targetNamespace="http://tempuri.org/OTDataSet3.xsd" xmlns:mstns="http://tempuri.org/OTDataSet3.xsd" xmlns="http://tempuri.org/OTDataSet3.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="OTConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="OTConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.UcakBiletRezervasyon.Properties.Settings.GlobalReference.Default.OTConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ucusTableAdapter" GeneratorDataComponentClassName="ucusTableAdapter" Name="ucus" UserDataComponentName="ucusTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="OTConnectionString (Settings)" DbObjectName="OT.dbo.ucus" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT kalkis_noktasi FROM dbo.ucus</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="kalkis_noktasi" DataSetColumn="kalkis_noktasi" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="OTConnectionString (Settings)" DbObjectName="OT.dbo.ucus" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="FillBy" GenerateMethods="Fill" GenerateShortCommands="true" GeneratorSourceName="FillBy" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="FillBy">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT kalkis_noktasi FROM dbo.ucus</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="OTDataSet3" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="OTDataSet3" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="OTDataSet3">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ucus" msprop:Generator_RowClassName="ucusRow" msprop:Generator_RowEvHandlerName="ucusRowChangeEventHandler" msprop:Generator_RowDeletedName="ucusRowDeleted" msprop:Generator_RowDeletingName="ucusRowDeleting" msprop:Generator_RowEvArgName="ucusRowChangeEvent" msprop:Generator_TablePropName="ucus" msprop:Generator_RowChangedName="ucusRowChanged" msprop:Generator_UserTableName="ucus" msprop:Generator_RowChangingName="ucusRowChanging" msprop:Generator_TableClassName="ucusDataTable" msprop:Generator_TableVarName="tableucus">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="kalkis_noktasi" msprop:Generator_UserColumnName="kalkis_noktasi" msprop:Generator_ColumnPropNameInTable="kalkis_noktasiColumn" msprop:Generator_ColumnPropNameInRow="kalkis_noktasi" msprop:Generator_ColumnVarNameInTable="columnkalkis_noktasi" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
