@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.button2 = new System.Windows.Forms.Button();
             this.label15 = new System.Windows.Forms.Label();
             this.textBiletId = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
@@ -60,7 +61,6 @@
             this.textAd = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -109,6 +109,18 @@
             this.groupBox2.Text = "Bilet Bilgileri";
             this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Brown;
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(63, 456);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(84, 67);
+            this.button2.TabIndex = 38;
+            this.button2.Text = "Geri";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // label15
             // 
             this.label15.AutoSize = true;
@@ -143,7 +155,7 @@
             this.maskedTextBox4.Mask = "00000";
             this.maskedTextBox4.Name = "maskedTextBox4";
             this.maskedTextBox4.Size = new System.Drawing.Size(194, 28);
-            this.maskedTextBox4.TabIndex = 34;
+            this.maskedTextBox4.TabIndex = 6;
             this.maskedTextBox4.ValidatingType = typeof(int);
             // 
             // label14
@@ -168,7 +180,7 @@
             this.comboBox1.Location = new System.Drawing.Point(592, 268);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(194, 29);
-            this.comboBox1.TabIndex = 32;
+            this.comboBox1.TabIndex = 13;
             // 
             // label13
             // 
@@ -187,7 +199,7 @@
             this.maskedTextBox1.Mask = "0000";
             this.maskedTextBox1.Name = "maskedTextBox1";
             this.maskedTextBox1.Size = new System.Drawing.Size(194, 28);
-            this.maskedTextBox1.TabIndex = 30;
+            this.maskedTextBox1.TabIndex = 5;
             this.maskedTextBox1.ValidatingType = typeof(int);
             // 
             // label12
@@ -206,7 +218,7 @@
             this.textAdres.Location = new System.Drawing.Point(592, 106);
             this.textAdres.Name = "textAdres";
             this.textAdres.Size = new System.Drawing.Size(194, 28);
-            this.textAdres.TabIndex = 28;
+            this.textAdres.TabIndex = 9;
             // 
             // label10
             // 
@@ -223,7 +235,7 @@
             this.textEposta.Location = new System.Drawing.Point(592, 54);
             this.textEposta.Name = "textEposta";
             this.textEposta.Size = new System.Drawing.Size(194, 28);
-            this.textEposta.TabIndex = 26;
+            this.textEposta.TabIndex = 8;
             // 
             // label11
             // 
@@ -240,7 +252,7 @@
             this.dateTimePicker1.Location = new System.Drawing.Point(172, 152);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(200, 28);
-            this.dateTimePicker1.TabIndex = 24;
+            this.dateTimePicker1.TabIndex = 3;
             // 
             // label9
             // 
@@ -268,7 +280,7 @@
             this.textUcusKodu.Location = new System.Drawing.Point(172, 409);
             this.textUcusKodu.Name = "textUcusKodu";
             this.textUcusKodu.Size = new System.Drawing.Size(194, 28);
-            this.textUcusKodu.TabIndex = 20;
+            this.textUcusKodu.TabIndex = 7;
             // 
             // label4
             // 
@@ -285,7 +297,7 @@
             this.radioButton2.Location = new System.Drawing.Point(700, 154);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(86, 25);
-            this.radioButton2.TabIndex = 18;
+            this.radioButton2.TabIndex = 11;
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Erkek";
             this.radioButton2.UseVisualStyleBackColor = true;
@@ -297,7 +309,7 @@
             this.radioButton1.Location = new System.Drawing.Point(592, 154);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(86, 25);
-            this.radioButton1.TabIndex = 17;
+            this.radioButton1.TabIndex = 10;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Kadın";
             this.radioButton1.UseVisualStyleBackColor = true;
@@ -318,7 +330,7 @@
             this.textSoyad.Location = new System.Drawing.Point(172, 106);
             this.textSoyad.Name = "textSoyad";
             this.textSoyad.Size = new System.Drawing.Size(194, 28);
-            this.textSoyad.TabIndex = 14;
+            this.textSoyad.TabIndex = 2;
             // 
             // label2
             // 
@@ -339,7 +351,7 @@
             this.comboBox3.Location = new System.Drawing.Point(592, 331);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(194, 29);
-            this.comboBox3.TabIndex = 9;
+            this.comboBox3.TabIndex = 14;
             // 
             // label7
             // 
@@ -367,7 +379,7 @@
             this.maskedTextBox3.Mask = "00(999) 000-0000";
             this.maskedTextBox3.Name = "maskedTextBox3";
             this.maskedTextBox3.Size = new System.Drawing.Size(194, 28);
-            this.maskedTextBox3.TabIndex = 11;
+            this.maskedTextBox3.TabIndex = 4;
             // 
             // maskedTextBox2
             // 
@@ -375,7 +387,7 @@
             this.maskedTextBox2.Mask = "00000000000";
             this.maskedTextBox2.Name = "maskedTextBox2";
             this.maskedTextBox2.Size = new System.Drawing.Size(194, 28);
-            this.maskedTextBox2.TabIndex = 10;
+            this.maskedTextBox2.TabIndex = 12;
             this.maskedTextBox2.ValidatingType = typeof(int);
             // 
             // textAd
@@ -383,7 +395,7 @@
             this.textAd.Location = new System.Drawing.Point(172, 54);
             this.textAd.Name = "textAd";
             this.textAd.Size = new System.Drawing.Size(194, 28);
-            this.textAd.TabIndex = 9;
+            this.textAd.TabIndex = 1;
             this.textAd.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label5
@@ -405,18 +417,6 @@
             this.label1.Size = new System.Drawing.Size(126, 21);
             this.label1.TabIndex = 0;
             this.label1.Text = "Ödeme Durumu";
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.Brown;
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(63, 456);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(84, 67);
-            this.button2.TabIndex = 38;
-            this.button2.Text = "Geri";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Form3
             // 

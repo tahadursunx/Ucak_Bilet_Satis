@@ -133,6 +133,7 @@ namespace UcakBiletRezervasyon
 
         private void button3_Click(object sender, EventArgs e)
         {
+            this.Hide();
             Form3 form3 = new Form3();
             form3.ShowDialog();
 
@@ -150,6 +151,7 @@ namespace UcakBiletRezervasyon
 
         private void button4_Click(object sender, EventArgs e)
         {
+            this.Hide();
             Form4 form4 = new Form4();
             form4.ShowDialog();
         }

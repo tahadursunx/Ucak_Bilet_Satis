@@ -112,7 +112,7 @@
             this.comboBox4.Location = new System.Drawing.Point(123, 91);
             this.comboBox4.Name = "comboBox4";
             this.comboBox4.Size = new System.Drawing.Size(194, 29);
-            this.comboBox4.TabIndex = 13;
+            this.comboBox4.TabIndex = 2;
             this.comboBox4.ValueMember = "varis_noktasi";
             // 
             // ucusBindingSource3
@@ -133,7 +133,7 @@
             this.comboBox3.Location = new System.Drawing.Point(469, 91);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(194, 29);
-            this.comboBox3.TabIndex = 12;
+            this.comboBox3.TabIndex = 4;
             this.comboBox3.ValueMember = "kalkis_saati";
             // 
             // ucusBindingSource1
@@ -230,7 +230,7 @@
             this.comboBox1.Location = new System.Drawing.Point(123, 44);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(194, 29);
-            this.comboBox1.TabIndex = 2;
+            this.comboBox1.TabIndex = 1;
             this.comboBox1.ValueMember = "kalkis_noktasi";
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 

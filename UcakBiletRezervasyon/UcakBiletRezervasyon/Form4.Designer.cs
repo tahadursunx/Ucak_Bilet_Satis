@@ -48,13 +48,13 @@
             this.label9 = new System.Windows.Forms.Label();
             this.textUcakKodu = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.textUcusKodu = new System.Windows.Forms.TextBox();
-            this.label10 = new System.Windows.Forms.Label();
             this.textKalkis = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.textInis = new System.Windows.Forms.TextBox();
+            this.textUcusKodu = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -73,7 +73,7 @@
             this.textBox1.Location = new System.Drawing.Point(375, 123);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(171, 22);
-            this.textBox1.TabIndex = 10;
+            this.textBox1.TabIndex = 1;
             // 
             // button1
             // 
@@ -259,35 +259,6 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Biletiniz";
             // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.Brown;
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(63, 438);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(84, 67);
-            this.button2.TabIndex = 39;
-            this.button2.Text = "Geri";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // textUcusKodu
-            // 
-            this.textUcusKodu.Location = new System.Drawing.Point(129, 163);
-            this.textUcusKodu.Name = "textUcusKodu";
-            this.textUcusKodu.Size = new System.Drawing.Size(115, 22);
-            this.textUcusKodu.TabIndex = 35;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Corbel", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label10.Location = new System.Drawing.Point(23, 163);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(88, 21);
-            this.label10.TabIndex = 36;
-            this.label10.Text = "Uçuş Kodu";
-            // 
             // textKalkis
             // 
             this.textKalkis.Location = new System.Drawing.Point(234, 219);
@@ -322,6 +293,35 @@
             this.textInis.Name = "textInis";
             this.textInis.Size = new System.Drawing.Size(115, 22);
             this.textInis.TabIndex = 37;
+            // 
+            // textUcusKodu
+            // 
+            this.textUcusKodu.Location = new System.Drawing.Point(129, 163);
+            this.textUcusKodu.Name = "textUcusKodu";
+            this.textUcusKodu.Size = new System.Drawing.Size(115, 22);
+            this.textUcusKodu.TabIndex = 35;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Corbel", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label10.Location = new System.Drawing.Point(23, 163);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(88, 21);
+            this.label10.TabIndex = 36;
+            this.label10.Text = "Uçuş Kodu";
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Brown;
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(63, 438);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(84, 67);
+            this.button2.TabIndex = 39;
+            this.button2.Text = "Geri";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Form4
             // 

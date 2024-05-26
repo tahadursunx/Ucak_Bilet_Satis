@@ -121,6 +121,7 @@ namespace UcakBiletRezervasyon
 
         private void button2_Click(object sender, EventArgs e)
         {
+            this.Hide();
             Form2 form2 = new Form2();
             form2.ShowDialog();
         }
